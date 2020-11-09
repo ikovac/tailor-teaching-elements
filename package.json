@@ -57,7 +57,7 @@
     "url-join": "^4.0.1",
     "video.js": "^7.6.6",
     "vue-aplayer": "^1.6.1",
-    "vue-retouch": "^1.1.0",
+    "vue-retouch": "^1.0.0",
     "vue-scrollto": "^2.17.1",
     "vuedraggable": "^2.23.1"
   },
