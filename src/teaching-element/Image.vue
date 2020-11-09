@@ -3,6 +3,7 @@
     <retouch-transformer :width="400" :height="300" crop>
       <retouch-image
         v-bind="meta"
+        :service-url="serviceUrl"
         :name="name"
         :placeholder="placeholder"
         prefetch
