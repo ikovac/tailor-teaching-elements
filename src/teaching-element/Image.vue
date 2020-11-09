@@ -21,7 +21,7 @@ export default {
     placeholder: { type: String, default: null },
     meta: { type: Object, default: () => ({}) }
   },
-  data: () => ({ serviceUrl: 'http://localhost:3300/api/v1/images' }),
+  data: () => ({ serviceUrl: 'http://localhost:3300/api/v1/images/' }),
   components: {
     RetouchImage,
     RetouchTransformer
