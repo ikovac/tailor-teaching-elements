@@ -3,7 +3,7 @@
     <retouch-transformer :width="400" :height="300" crop>
       <retouch-image
         v-bind="meta"
-        :name="key"
+        :name="name"
         :placeholder="placeholder"
         prefetch
         class="te-image" />
@@ -17,7 +17,7 @@ import { RetouchImage, RetouchTransformer } from 'vue-retouch';
 export default {
   name: 'te-image',
   props: {
-    key: { type: String, required: true },
+    name: { type: String, required: true },
     placeholder: { type: String, default: null },
     meta: { type: Object, default: () => ({}) }
   },
